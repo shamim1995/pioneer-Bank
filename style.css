@@ -1,0 +1,65 @@
+.container {
+    width: 1170px;
+}
+/*login form section*/
+.loginForm {
+    margin-top: 50px;
+    padding: 50px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 4px 0px 1px #ddd;
+
+}
+/*transition section*/
+.deposit {
+    background: rebeccapurple;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+.withdraw {
+    background: lightsalmon;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+   
+}
+.balance {
+    background: #ef9b01;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+section#transition {
+    margin-top: 150px;
+    display: none;
+}
+.status{
+    margin: 0px 30px;
+}
+
+/* transition Amount section*/
+.depositStatus {
+    border: 1px solid #ddd;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.depositStatus input {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.depositStatus input:focus {
+    border: 2px solid #ddd !important;
+}
+.withdrawAmount {
+    margin-right: 10px;
+}
